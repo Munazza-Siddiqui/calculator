@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="main">
+
+        <div>
+            <h1 class="heading"><b>Basic Calculator</b></h1>
+        </div>
+
+        <div><input id="caculation" type="text" class="inp">
+        </div>
+    
+            <div><button type="button" class="btn btn-light btn-lg" onclick="del()">Del</button>
+                <button type="button" class="btn btn-light btn-lg" onclick="getNumber('(')">(</button>
+                <button type="button" class="btn btn-light btn-lg" onclick="getNumber(')')">)</button>
+                <button type="button" class="btn btn-light btn-lg" onclick="getNumber('-')">-</button>
+            </div>
+
+            <div><button type="button" class="btn btn-dark btn-lg" onclick="getNumber('1')">1</button>
+                <button type="button" class="btn btn-dark btn-lg" onclick="getNumber('2')">2</button>
+                <button type="button" class="btn btn-dark btn-lg" onclick="getNumber('3')">3</button>
+                <button type="button" class="btn btn-light btn-lg" onclick="getNumber('+')">+</button>
+            </div>
+
+            <div><button type="button" class="btn btn-dark btn-lg" onclick="getNumber('4')">4</button>
+                <button type="button" class="btn btn-dark btn-lg" onclick="getNumber('5')">5</button>
+                <button type="button" class="btn btn-dark btn-lg" onclick="getNumber('6')">6</button>
+                <button type="button" class="btn btn-light btn-lg" onclick="getNumber('/')">/</button></div>
+
+
+            <div><button type="button" class="btn btn-dark btn-lg" onclick="getNumber('7')">7</button>
+                <button type="button" class="btn btn-dark btn-lg" onclick="getNumber('8')">8</button>
+                <button type="button" class="btn btn-dark btn-lg" onclick="getNumber('9')">9</button>
+                <button type="button" class="btn btn-light btn-lg" onclick="getNumber('*')">*</button></div>
+
+            <div><button type="button" class="btn btn-dark btn-lg" onclick="getNumber('0')">0</button>
+                <button type="button" class="btn btn-light btn-lg" onclick="getNumber('.')">.</button>
+                <button type="button" class="btn btn-light btn-lg" onclick="getNumber('%')">%</button>
+                <button type="button" class="btn btn-light btn-lg">=</button></div>
+        
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+<script src="app.js"></script>
+
+</html>
