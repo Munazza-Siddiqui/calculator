@@ -1,18 +1,18 @@
 .main{
-background-color: grey;
-width: 615px;
-height: 500px;
+background-color: rgba(0, 0, 0, 0.966);
+width: 600px;
+height: 600px;
 margin-left: 400px;
 margin-top: 50px;
-box-shadow: 2px 2px 15px  black;
+box-shadow: 2px 2px 30px  black;
 border: 1px solid rgba(0, 0, 0, 0.712);
+border-radius: 15px 15px 15px 15px;
 }
 .inp{
-width: 98%;
+width: 95%;
 height: 80px;
-margin: 5px;
+margin: 15px;
 margin-bottom: 20px !important;
-
 }
 .heading{
     text-align: center;
@@ -21,22 +21,77 @@ margin-bottom: 20px !important;
     margin-top: 10px;
 }
 .btn-lg{
-    width: 140px !important;
-    height: 50px !important;
+    width: 132px !important;
+    height: 60px !important;
     margin: 4px !important;
+}
+.a{
+    margin-left: 15px !important;
+}
+.b{
+    width: 280px !important;
 }
 @media only screen and (max-width: 900px){
     .main{
-        margin-left: 300px !important;
+        margin-left: 180px !important;
+        width: 500px;
+       height: 550px;
+    }
+    .btn-lg{
+        width: 110px !important;
+        height: 50px !important;
+        margin: 4px !important;
+    }
+    .a{
+        margin-left: 10px !important;
+    }
+    .b{
+        width: 230px !important;
     }
 }
 @media only screen and (max-width: 600px){
     .main{
-        margin-left: 200px !important;
+        margin-left: 80px !important;
+        width: 400px;
+       height: 550px;
+    }
+    .btn-lg{
+        width: 85px !important;
+        height: 50px !important;
+        margin: 4px !important;
+    }
+    .a{
+        margin-left: 10px !important;
+    }
+    .b{
+        width: 180px !important;
+    }
+    .inp{
+        margin-left: 10px !important;
     }
 }
 @media only screen and (max-width: 300px){
     .main{
-        margin-left: 100px !important;
+        margin-left: 20px !important;
+        width: 250px;
+       height: 500px;
+    }
+    .btn-lg{
+        width: 48px !important;
+        height: 50px !important;
+        margin: 3px !important;
+    }
+    .a{
+        margin-left: 10px !important;
+    }
+    .b{
+        width: 110px !important;
+    }
+    .inp{
+        margin-left: 5px !important;
+        height: 70px;
+    }
+    .heading{
+        font-size: x-large;
     }
 }

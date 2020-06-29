@@ -17,36 +17,41 @@
             <h1 class="heading"><b>Basic Calculator</b></h1>
         </div>
 
-        <div><input id="caculation" type="text" class="inp">
+        <div><input id="cal" type="text" class="inp">
         </div>
-    
-            <div><button type="button" class="btn btn-light btn-lg" onclick="del()">Del</button>
-                <button type="button" class="btn btn-light btn-lg" onclick="getNumber('(')">(</button>
+            <div><button type="button" class="btn btn-light btn-lg a" onclick="clearResult()">Del</button>
+                <button  type="button" class="btn btn-light btn-lg" onclick="getNumber('(')" >(</button>
                 <button type="button" class="btn btn-light btn-lg" onclick="getNumber(')')">)</button>
-                <button type="button" class="btn btn-light btn-lg" onclick="getNumber('-')">-</button>
+                <button type="button" class="btn btn-light btn-lg" onclick="back()">↵ Back</button>
             </div>
 
-            <div><button type="button" class="btn btn-dark btn-lg" onclick="getNumber('1')">1</button>
+            <div><button type="button" class="btn btn-dark btn-lg a" onclick="getNumber('1')">1</button>
                 <button type="button" class="btn btn-dark btn-lg" onclick="getNumber('2')">2</button>
                 <button type="button" class="btn btn-dark btn-lg" onclick="getNumber('3')">3</button>
                 <button type="button" class="btn btn-light btn-lg" onclick="getNumber('+')">+</button>
             </div>
 
-            <div><button type="button" class="btn btn-dark btn-lg" onclick="getNumber('4')">4</button>
+            <div><button type="button" class="btn btn-dark btn-lg a" onclick="getNumber('4')">4</button>
                 <button type="button" class="btn btn-dark btn-lg" onclick="getNumber('5')">5</button>
                 <button type="button" class="btn btn-dark btn-lg" onclick="getNumber('6')">6</button>
-                <button type="button" class="btn btn-light btn-lg" onclick="getNumber('/')">/</button></div>
+                <button type="button" class="btn btn-light btn-lg" onclick="getNumber('-')">-</button>
+                </div>
 
 
-            <div><button type="button" class="btn btn-dark btn-lg" onclick="getNumber('7')">7</button>
+            <div><button type="button" class="btn btn-dark btn-lg a" onclick="getNumber('7')">7</button>
                 <button type="button" class="btn btn-dark btn-lg" onclick="getNumber('8')">8</button>
                 <button type="button" class="btn btn-dark btn-lg" onclick="getNumber('9')">9</button>
                 <button type="button" class="btn btn-light btn-lg" onclick="getNumber('*')">*</button></div>
 
-            <div><button type="button" class="btn btn-dark btn-lg" onclick="getNumber('0')">0</button>
-                <button type="button" class="btn btn-light btn-lg" onclick="getNumber('.')">.</button>
-                <button type="button" class="btn btn-light btn-lg" onclick="getNumber('%')">%</button>
-                <button type="button" class="btn btn-light btn-lg">=</button></div>
+            <div><button type="button" class="btn btn-light btn-lg a" onclick="sqrrt()">√</button>
+                <button  type="button" class="btn btn-dark btn-lg " onclick="getNumber('0')">0</button>
+                <button type="button" class="btn btn-light btn-lg " onclick="getNumber('.')">.</button>
+                <button type="button" class="btn btn-light btn-lg" onclick="getNumber('/')">/</button>
+                </div>
+
+                <div> <button  type="button" class="btn btn-light btn-lg a" onclick="sqaure()">x<sup>2</sup></button>
+                    <button type="button" class="btn btn-light btn-lg " onclick="getNumber('%')">%</button>
+                     <button  type="button" class="btn btn-dark btn-lg b" onclick="getResult()">=</button></div>
         
     </div>
 
